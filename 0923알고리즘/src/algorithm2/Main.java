@@ -14,7 +14,7 @@ public class Main {
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		
 		int n = Integer.parseInt(br.readLine());
-		int max_v = 0;
+		int max_v = -10000001;
 		int min_v = 10000001;
 		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 		
